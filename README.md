@@ -8,7 +8,6 @@ The application features:
 - Support for multiple color themes
 - User registration and session management
   - Includes authenticated routes and API access
-- Basic Progressive Web App (PWA) configuration
 
 ## Setup Instructions
 

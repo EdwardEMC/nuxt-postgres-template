@@ -32,43 +32,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     "@pinia/nuxt",
     'nuxt-icons',
-    '@nuxtjs/i18n',
-    '@vite-pwa/nuxt'
+    '@nuxtjs/i18n'
   ],
-  pwa: {
-    manifest: {
-      name: 'Your App Name',
-      short_name: 'App',
-      description: 'Your app description',
-      theme_color: '#ffffff', // Customize with your app’s theme color
-      icons: [
-        {
-          src: '/android-chrome-192x192.png',
-          sizes: "192x192",
-          type: "image/png"
-        },
-        {
-          src: '/android-chrome-512x512.png',
-          sizes: "512x512",
-          type: "image/png"
-        },
-      ],
-      start_url: '/',
-      display: 'standalone', // Enables the app to open as a standalone window
-      background_color: '#ffffff' // Customize background color
-    },
-    client: {
-      installPrompt: true
-    },
-    workbox: {
-
-    },
-    devOptions: {
-      enabled: true, 
-      type: "module"
-    }
-
-  },
   devServer: {
     host: '0.0.0.0',    // Allow connections from any device on the network
     port: 3000          // Keep your desired port

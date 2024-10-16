@@ -20,7 +20,6 @@ onMounted(() => {
 
 <template>
   <div class="flex flex-col flex-grow text-content-primary">
-    <NuxtPwaManifest/>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
