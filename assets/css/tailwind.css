@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light and Dark mode configurations */
+/* region Light Mode Variables */
+:root {
+  /* region Background Variables */
+  --color-background-primary: #f8fafc;
+  --color-background-secondary: #f1f5f9;
+  --color-background-tertiary: #e2e8f0;
+  --color-background-input: #FFFFFF;
+  --color-background-blur: #e5e7eb;
+  /* endregion */
+
+  /* region Menu Variables */
+  --color-menu-primary: #1f2937;
+  --color-menu-secondary: #3f3f46;
+  /* endregion */
+
+  /* region Text Variables */
+  --color-content-primary: #1f242f;
+  --color-content-secondary: #333741;
+  --color-content-menu: #FFFFFF;
+  --color-content-notification: #ca8a04;
+  --color-content-danger: #f5f5f5;
+  /* endregion */
+
+  /* region Icon Variables */
+  --color-icon-primary: #000000;
+  --color-icon-secondary: #667085;
+  /* endregion */
+  
+  /* region Button Variables */
+  --color-button-primary: #3b82f6;
+  --color-button-secondary: #2563eb;
+  --color-button-outline: #a3a3a3;
+  /* endregion */
+
+  /* region Danger Variables */
+  --color-danger-primary: #dc2626;
+  --color-danger-secondary: #b91c1c;
+  /* endregion */
+}
+/* endregion */
+
+/* region Dark Mode Variables */
+.dark {
+  /* region Background Variables */
+  --color-background-primary: #0C111D;
+  --color-background-secondary: #161b26;
+  --color-background-tertiary: #1f242f;
+  --color-background-input: #6b7280;
+  --color-background-blur: #374151;
+  /* endregion */
+
+  /* region Menu Variables */
+  --color-menu-primary: #1f2937;
+  --color-menu-secondary: #333741;
+  /* endregion */
+
+  /* region Text Variables */
+  --color-content-primary: #e5e7eb;
+  --color-content-secondary: #0C111D;
+  --color-content-menu: #cbd5e1;
+  --color-content-notification: #a16207;
+  --color-content-danger: #e5e5e5;
+  /* endregion */
+
+  /* region Icon Variables */
+  --color-icon-primary: #ececed;
+  --color-icon-secondary: #667085;
+  /* endregion */
+
+  /* region Button Variables */
+  --color-button-primary: #1d4ed8;
+  --color-button-secondary: #1e40af;
+  --color-button-outline: #d4d4d4;
+  /* endregion */
+
+  /* region Danger Variables */
+  --color-danger-primary: #b91c1c;
+  --color-danger-secondary: #991b1b;
+  /* endregion */
+}
+/* endregion */

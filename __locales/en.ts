@@ -1,0 +1,58 @@
+import type { LocaleInterface } from "./_LocaleInterface";
+
+export const english: LocaleInterface = {
+    menu: 'Menu',
+    home: 'Home',
+    trips: "Trips",
+    profile: "Profile",
+    settings: "Settings",
+    logout: "Logout",
+
+    account_details: "Account details",
+    service: "Service",
+    free: "Free",
+    premium: "Premium",
+    single_sign_on: "Single sign on",
+    single_sign_on_used: "Single sign on used, cannot alter email address.",
+    update: "Update",
+    change_password: "Change password",
+    add_password: "Add password",
+    add_password_description: "Adding a password to your account will allow you to login using Google or your email and password.",
+    current_password: "Current password",
+    new_password: "New password",
+
+    change_language: "Change language",
+    change_theme: "Change theme",
+    dark_mode: "Light mode",
+    light_mode: "Dark mode",
+    delete_account: "Delete account",
+    are_you_sure_you_want_to_delete_your_account: "Are you sure you want to delete your account?",
+    delete: "Delete",
+    back: "Back",
+
+    email: "Email",
+    password: "Password",
+    name: "Name",
+    show: "Show",
+    hide: "Hide",
+    enter_your_email: "Enter your email",
+    enter_your_password: "Enter your password",
+    enter_your_name: "Enter your name",
+    confirm_your_password: "Confirm your password",
+
+    login: "Login",
+    email_and_password_are_required: "Email and password are required",
+    login_successful: "Login successful!",
+    invalid_login_credentials: "Invalid login credentials",
+    dont_have_an_account: "Don't have an account?",
+    register_here: "Register here",
+
+    register: "Register",
+    confirm_password: "Confirm password",
+    all_fields_are_required: "All fields are required",
+    passwords_do_not_match: "Passwords do not match",
+    email_already_in_use: "Email already in use",
+    registration_successful: "Registration successful",
+    already_have_an_account: "Already have an account?",
+    login_here: "Login here"
+}

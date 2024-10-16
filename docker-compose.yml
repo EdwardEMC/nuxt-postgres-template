@@ -1,0 +1,22 @@
+services:
+  postgres:
+    container_name: "postgresql"
+    image: 'postgres:16'
+    ports:
+        - '${POSTGRES_PORT}:${POSTGRES_PORT}'
+    environment:
+      POSTGRES_DB: '${POSTGRES_DATABASE}'
+      POSTGRES_USER: '${POSTGRES_USERNAME}'
+      POSTGRES_PASSWORD: '${POSTGRES_PASSWORD}'
+    volumes:
+      - postgresql:/data/postgres
+    networks:
+      - nuxt-network
+
+networks:
+  nuxt-network:
+    driver: bridge
+
+volumes:
+  postgresql:
+    driver: local

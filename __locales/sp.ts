@@ -1,0 +1,58 @@
+import type { LocaleInterface } from "./_LocaleInterface";
+
+export const spanish: LocaleInterface = {
+    menu: 'Menú',
+    home: 'Hogar',
+    trips: "Viajes",
+    profile: "Perfil",
+    settings: "Ajustes",
+    logout: "Cerrar sesión",
+
+    account_details: "Detalles de la cuenta",
+    service: "Servicio",
+    free: "Gratis",
+    premium: "De primera calidad",
+    single_sign_on: "Inicio de sesión único",
+    single_sign_on_used: "Se utiliza el inicio de sesión único, no se puede modificar la dirección de correo electrónico.",
+    update: "Actualizar",
+    change_password: "Cambiar la contraseña",
+    add_password: "Agregar contraseña",
+    add_password_description: "Agregar una contraseña a su cuenta le permitirá iniciar sesión usando Google o su correo electrónico y contraseña.",
+    current_password: "Contraseña actual",
+    new_password: "Nueva contraseña",
+
+    change_language: "Cambiar idioma",
+    change_theme: "Cambiar tema",
+    dark_mode: "Modo de luz",
+    light_mode: "Modo oscuro",
+    delete_account: "Eliminar cuenta",
+    are_you_sure_you_want_to_delete_your_account: "Estás seguro de que quieres eliminar tu cuenta?",
+    delete: "Borrar",
+    back: "Atrás",
+
+    email: "Correo electrónico",
+    password: "Contraseña",
+    name: "Nombre",
+    show: "Espectáculo",
+    hide: "Esconder",
+    enter_your_email: "Introduce tu correo electrónico",
+    enter_your_password: "Introduce tu contraseña",
+    enter_your_name: "Introduce tu nombre",
+    confirm_your_password: "Confirma tu contraseña",
+
+    login: "Acceso",
+    email_and_password_are_required: "Se requiere correo electrónico y contraseña",
+    login_successful: "Inicio de sesión exitoso!",
+    invalid_login_credentials: "Credenciales de inicio de sesión no válidas",
+    dont_have_an_account: "No tienes una cuenta?",
+    register_here: "Regístrate aquí",
+
+    register: "Registro",
+    confirm_password: "Confirmar contraseña",
+    all_fields_are_required: "Todos los campos son obligatorios",
+    passwords_do_not_match: "Las contraseñas no coinciden",
+    email_already_in_use: "Correo electrónico ya en uso",
+    registration_successful: "Registro exitoso",
+    already_have_an_account: "Ya tienes una cuenta?",
+    login_here: "Inicia sesión aquí"
+}
